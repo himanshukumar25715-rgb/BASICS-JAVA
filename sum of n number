@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class Sumofnumber{
+   public static void main(String[]args){
+    Scanner sc = new Scanner(System.in);
+    System.outprint("Enter the numbe rof terms 
+    int n = sc.nextInt();
+    int sum = n*(n+1)/2;
+    System.out.println("sum of n numbers is "+sum);
+    
+   }
+    
+}
