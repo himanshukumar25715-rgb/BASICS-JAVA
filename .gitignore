@@ -1,0 +1,10 @@
+﻿# Java basics learning repo
+
+*.class
+*.log
+*.jar
+.idea/
+.vscode/
+.DS_Store
+out/
+target/

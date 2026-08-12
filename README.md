@@ -1,40 +1,25 @@
 ﻿# BASICS-JAVA
 
-This repository is a beginner-friendly Java practice project designed to help learn core Java concepts through small exercises, coding challenges, and hands-on examples.
+Simple Java practice repository.
 
-## What this repo contains
+This repo is for learning Java basics by writing small programs and uploading them to GitHub.
 
-- Basic Java syntax and control flow
-- Loops, conditions, and operators
-- Recursion and function-based problem solving
-- Arrays, patterns, and number-based problems
-- Object-oriented programming basics such as classes, methods, and scope
-- Small coding exercises for practice and revision
+## Files
 
-## Project structure
+- Java practice files are kept in the root folder.
+- Each file is a small exercise or example.
+- You can add new Java files here and push them anytime.
 
-- `src/main/java/basics/` - main Java exercises and learning programs
-- `src/main/java/legacy/` - older or imported files kept for reference
-- `src/test/java/` - future test cases and validation files
-- `pom.xml` - Maven project configuration
-
-## How to run a Java file
+## Run a file
 
 ```bash
-javac src/main/java/basics/factorial.java
-java -cp src/main/java/basics factorial
+javac factorial.java
+java factorial
 ```
 
-> Replace `factorial` with the actual class name you want to run.
+## Purpose
 
-## Build the project
-
-```bash
-mvn compile
-```
-
-## Notes
-
-- This repo is meant for learning and practice, not for production-grade application architecture.
-- The goal is to strengthen Java fundamentals and improve problem-solving skills.
-- Keep the code simple, readable, and easy to understand.
+- practice Java syntax
+- learn loops, conditions, methods, and classes
+- solve beginner coding problems
+- save work on GitHub
